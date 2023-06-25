@@ -57,6 +57,8 @@ html{
     border-color: #3284FF;
     padding: 0px 12px;
     border-width: 0.5px;
+    color: #3284FF;
+    font-size: small;
 
 }
 
@@ -164,6 +166,7 @@ html{
 .less-space-h3{
     margin-top: 4px;
     margin-bottom: 4px;
+
 }
 
 .img-div{
@@ -323,4 +326,7 @@ html{
 
 .questions > i {
     flex: 1
+}
+::placeholder{
+    color: #3284FF;
 }
